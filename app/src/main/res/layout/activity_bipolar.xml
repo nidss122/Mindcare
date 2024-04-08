@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bipolar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#eafbff"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="Bipolar Disorder"
+                android:textAlignment="center"
+                android:textColor="@color/custom_button"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="70dp"
+                app:srcCompat="@drawable/bipolar" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="340dp"
+                android:layout_height="420dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="310dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/inter_medium"
+                android:justificationMode="inter_word"
+                android:text="Bipolar disorder is a mental health condition characterized by significant mood swings, including emotional highs (mania or hypomania) and lows (depression). The exact cause of bipolar disorder is not fully understood, but a combination of genetics, environment, and altered brain structure and chemistry may play roles. Managing bipolar disorder requires a comprehensive treatment plan, typically involving medication and psychotherapy, and sometimes lifestyle adjustments and support strategies."
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="760dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="Symptoms"
+                android:textAlignment="center"
+                android:textColor="@color/custom_button"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="810dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/inter_medium"
+                android:justificationMode="inter_word"
+                android:paddingBottom="30dp"
+                android:text="Increased energy\nactivity and restlessness
+\nExcessively high\neuphoric mood
+            \nExtreme irritability
+            \nRacing thoughts\nfast talking\njumping between ideas
+            \nUnrealistic beliefs in one's abilities and powers
+            \nPoor judgment
+            \nSleeplessness
+            \nIncreased sex drive
+            \nProvocative, intrusive, or aggressive behavior"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </FrameLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

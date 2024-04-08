@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Schizo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#eafbff"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="Schizophernia"
+                android:textAlignment="center"
+                android:textColor="@color/custom_button"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="350dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/inter_medium"
+                android:justificationMode="inter_word"
+                android:text="Schizophrenia is a complex, chronic mental health disorder characterized by an array of symptoms, including delusions, hallucinations, disorganized thinking (speech), and significant impairment in social or occupational functioning. It's one of the most serious and disabling mental health conditions, affecting a person's ability to think clearly, manage emotions, make decisions, and relate to others."
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="70dp"
+                app:srcCompat="@drawable/schizo" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="740dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="Symptoms"
+                android:textAlignment="center"
+                android:textColor="@color/custom_button"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="790dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/inter_medium"
+                android:justificationMode="inter_word"
+                android:paddingBottom="30dp"
+                android:text="Positive symptoms include hallucinations (seeing or hearing things that aren't there), delusions (false beliefs not based in reality), thought disorders (unusual or dysfunctional ways of thinking), and movement disorders (agitated body movements).
+                \n\nNegative symptoms refer to reductions or deficits in normal emotional and behavioral states. This might include reduced speaking, lack of pleasure in everyday life, neglect of personal hygiene, and withdrawal from social activities.
+                \n\nNegative symptoms refer to reductions or deficits in normal emotional and behavioral states. This might include reduced speaking, lack of pleasure in everyday life, neglect of personal hygiene, and withdrawal from social activities.
+                \n\nCognitive symptoms involve changes in memory or other aspects of thinking. This could include trouble focusing or paying attention, problems with working memory (the ability to use information immediately after learning it), and difficulty in organizing thoughts or making decisions."
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </FrameLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

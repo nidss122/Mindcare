@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".anxiety">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#eafbff"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="Anxiety Disorder"
+                android:textAlignment="center"
+                android:textColor="@color/custom_button"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="70dp"
+                app:srcCompat="@drawable/anxiety" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="310dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/inter_medium"
+                android:justificationMode="inter_word"
+                android:text="Anxiety disorders represent a group of mental health diagnoses that lead to excessive nervousness, fear, apprehension, and worry. These disorders alter how a person processes emotions and behavior, also causing physical symptoms. Mild anxiety might be vague and unsettling, while severe anxiety may seriously affect day-to-day living."
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="640dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="Symptoms"
+                android:textAlignment="center"
+                android:textColor="@color/custom_button"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="710dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/inter_medium"
+                android:justificationMode="inter_word"
+                android:paddingBottom="30dp"
+                android:text="Feelings of panic\nfear and uneasiness
+                \nSleep problems
+                \nNot being able to stay calm and still
+                \nCold, sweaty, numb, or tingling hands or feet
+                \nShortness of breath
+                \nHeart palpitations
+                \nDry mouth
+                \nNausea"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </FrameLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

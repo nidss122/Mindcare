@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eafbff"
+    tools:context=".Helpline">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="Helpline "
+                android:textAlignment="center"
+                android:textColor="@color/custom_button"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="75dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="Focus Groups "
+                android:textAlignment="center"
+                android:textColor="@color/custom_button"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="125dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="Arpita Foundation: "
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="125dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="+91 80 23655557. Located in Bangalore, Karnataka, providing professional guidance and counselling"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="255dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="COOJ Mental Health Foundation:"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="255dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="+9969008432 In Mumbai Andheri west near Station. Operational from 3pm to 7pm on weekdays"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="385dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="Sneha Foundation:"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="385dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="+914578561456  Sai complex 3rd floor Park street Kolkata Operational 24×7"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="495dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="Emmergency Numbers"
+                android:textAlignment="center"
+                android:textColor="@color/custom_button"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="545dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="Muktaa Helpline: +919876534210"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="585dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="Voice that Cares: +919878945210"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+        </FrameLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
