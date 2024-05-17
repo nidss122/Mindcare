@@ -2,8 +2,10 @@ package com.company.mindcare
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.company.mindcare.databinding.ActivityManualBinding
+
 
 class Manual : AppCompatActivity() {
 
@@ -11,29 +13,30 @@ class Manual : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        // Inflate the layout using ViewBinding
         binding = ActivityManualBinding.inflate(layoutInflater)
-
-        // Set the content view to the root of the inflated layout
-        setContentView(binding.root)
+        setContentView(binding.root) // Set the content view to the root view of the binding
 
         // Set up click listeners for the buttons
         binding.cdepressionButton.setOnClickListener {
-            startActivity(Intent(this, ClinicalDep::class.java))
-            finish()
+            val intent = Intent(this, ClinicalDep::class.java)
+            Log.d("ButtonClick", "Button clicked")
+            startActivity(intent)
+            Log.d("ButtonClick", "Started activity")
         }
 
         binding.anxietyButton.setOnClickListener {
-            startActivity(Intent(this, anxiety::class.java))
+            val intent = Intent(this, Anxiety::class.java)
+            startActivity(intent)
         }
 
         binding.bipolarButton.setOnClickListener {
-            startActivity(Intent(this, Bipolar::class.java))
+            val intent = Intent(this, Bipolar::class.java)
+            startActivity(intent)
         }
 
         binding.schizoButton.setOnClickListener {
-            startActivity(Intent(this, Schizo::class.java))
+            val intent = Intent(this, Schizo::class.java)
+            startActivity(intent)
         }
     }
 }

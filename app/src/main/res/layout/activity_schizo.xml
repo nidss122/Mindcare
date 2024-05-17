@@ -57,7 +57,7 @@
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_marginStart="100dp"
-                android:layout_marginTop="740dp"
+                android:layout_marginTop="690dp"
                 android:fontFamily="@font/inter_medium"
                 android:text="Symptoms"
                 android:textAlignment="center"
@@ -70,13 +70,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:layout_marginTop="790dp"
+                android:layout_marginTop="750dp"
                 android:layout_marginEnd="20dp"
                 android:fontFamily="@font/inter_medium"
                 android:justificationMode="inter_word"
                 android:paddingBottom="30dp"
                 android:text="Positive symptoms include hallucinations (seeing or hearing things that aren't there), delusions (false beliefs not based in reality), thought disorders (unusual or dysfunctional ways of thinking), and movement disorders (agitated body movements).
-                \n\nNegative symptoms refer to reductions or deficits in normal emotional and behavioral states. This might include reduced speaking, lack of pleasure in everyday life, neglect of personal hygiene, and withdrawal from social activities.
                 \n\nNegative symptoms refer to reductions or deficits in normal emotional and behavioral states. This might include reduced speaking, lack of pleasure in everyday life, neglect of personal hygiene, and withdrawal from social activities.
                 \n\nCognitive symptoms involve changes in memory or other aspects of thinking. This could include trouble focusing or paying attention, problems with working memory (the ability to use information immediately after learning it), and difficulty in organizing thoughts or making decisions."
                 android:textAlignment="viewStart"

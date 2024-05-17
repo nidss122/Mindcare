@@ -4,12 +4,10 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.ui.AppBarConfiguration
 import com.company.mindcare.databinding.ActivityHomeScreenBinding
 
 class HomeScreen : AppCompatActivity() {
 
-    private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityHomeScreenBinding
 
     @SuppressLint("WrongViewCast")
@@ -31,12 +29,10 @@ class HomeScreen : AppCompatActivity() {
 
         }
 
-
         binding.helplineButton.setOnClickListener {
             val intent = Intent(this, Helpline::class.java)
             startActivity(intent)
         }
-
 
     }
 

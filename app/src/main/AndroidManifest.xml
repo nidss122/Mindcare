@@ -16,6 +16,10 @@
         android:theme="@style/Theme.MindCare"
         tools:targetApi="31">
         <activity
+            android:name=".VideoCall"
+            android:exported="false">
+        </activity>
+        <activity
             android:name=".Schizo"
             android:exported="false">
         </activity>
@@ -25,18 +29,16 @@
         </activity>
         <activity
             android:name=".Bipolar"
-            android:exported="false" />
+            android:exported="false">
+        </activity>
         <activity
-            android:name=".anxiety"
-            android:exported="true"
-            android:theme="@style/Theme.MindCare">
-            <intent-filter>
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:name=".Anxiety"
+            android:exported="false">
         </activity>
         <activity
             android:name=".ClinicalDep"
-            android:exported="false" />
+            android:exported="false">
+        </activity>
         <activity
             android:name=".HomeScreen"
             android:exported="true"
@@ -47,11 +49,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Chatbot"
             android:exported="false" />
-
         <activity
             android:name=".Helpline"
             android:exported="false" />

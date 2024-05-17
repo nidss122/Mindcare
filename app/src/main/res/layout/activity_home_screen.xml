@@ -35,7 +35,8 @@
                 android:backgroundTint="@color/custom_button"
                 android:fontFamily="@font/inter_medium"
                 android:text="Manual"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/chatbotButton"
@@ -46,7 +47,8 @@
                 android:backgroundTint="@color/custom_button"
                 android:fontFamily="@font/inter_medium"
                 android:text="Chatbot"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/helplineButton"
@@ -57,7 +59,8 @@
                 android:backgroundTint="@color/custom_button"
                 android:fontFamily="@font/inter_medium"
                 android:text="Helpline"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
         </FrameLayout>
     </ScrollView>
